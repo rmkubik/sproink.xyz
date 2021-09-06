@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/pig-pattern.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  font-size: 6rem;
+  border: 4px solid black;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 6px 6px black;
+  cursor: pointer;
+  padding: 1rem 2rem;
+
+  &:active {
+    color: white;
+    background-color: black;
+  }
+}
